@@ -81,23 +81,11 @@ The goal is to identify schools that may have fewer safety infrastructures, usin
 ---
 
 ## 📁 Repository Structure
-📦 schoolzone-safety-analysis
-├── 📄 README.md                # Project documentation
-├── 📄 requirements.txt         # Python dependencies (if applicable)
-│
-├── 📊 data/                    # Raw and processed datasets
-│   ├── school_zones.geojson
-│   ├── road_objects.csv
-│   ├── traffic_accidents.csv
-│   └── ...
-│
-├── 📓 notebooks/               # Jupyter Notebooks
-│   ├── Traffic Accidents.ipynb   # Cleaning and preprocessing accident data
-│   ├── Road Objects.ipynb      # Spatial joins and analysis of road objects
-│   └── ...
-│
-├── 📈 dashboard/               # Power BI dashboard
-│   └── Road Traffic and Objects Dashboard.pbix
-│
-├── 🧾 presentation/            # Fin
-    └── Road Traffic & Objects Analysis.pdf
+
+| Folder            | Description                                                                  |
+| ----------------- | ---------------------------------------------------------------------------- |
+| **data/**         | Contains raw and cleaned datasets used for analysis.                         |
+| **notebooks/**    | Includes Jupyter notebooks for data cleaning and geospatial processing.      |
+| **dashboard/**    | Contains the Power BI dashboard file for interactive visualisation.          |
+| **presentation/** | Stores the final presentation deck summarising key findings.                 |
+
